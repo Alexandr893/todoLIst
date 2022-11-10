@@ -1,0 +1,145 @@
+/* $dark: #2F343A;
+$text-color:#ffffff;
+$light: #C8A35F;
+$dark-light:#393F47; */
+
+body {
+    background-color: #2F343A;
+    font-family: sans-serif;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box; }
+  
+  .container {
+    margin: 0 auto;
+    padding-top: 50px; }
+  
+  .important {
+    font-weight: bold;
+    color: #C8A35F; }
+  
+  .todo_list {
+    max-width: 400px;
+    display: block;
+    margin: 0 auto 40px;
+    background-color: #393F47;
+    padding: 30px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 2px 10px 0 #C8A35F;
+    box-shadow: 0 2px 10px 0 #C8A35F; }
+  .todo_list-title{
+    color:#C8A35F;
+  }
+  h1 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 30px; }
+  
+  .create_new_todo {
+    text-align: center; }
+  
+  input[type=text] {
+    width: 376px;
+    padding: 10px; }
+  .add{
+    border-radius: 6px;
+    cursor: pointer;
+    color: black;
+    background-color: #C8A35F;
+font-size: 16px;
+line-height: 25px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+border: none;
+
+  }
+  
+  button {
+    margin-top: 10px;
+    width: 400px;
+    padding: 10px;
+    cursor: pointer; }
+  
+  .todo {
+    padding-left: 0; }
+    .todo li {
+      display: flex;
+      justify-content: space-between;
+      color:#fff;
+      padding-top: 1em;
+      border-bottom: 1px solid #000;
+      list-style-type: none; }
+      .todo li:not(:last-child) {
+        border-bottom: 1px solid #000; }
+        
+ .important {
+
+  
+  color: #C8A35F
+ }
+  .input__add{
+    
+    border-radius: 15px;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    background-color:#C8A35F;
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-width: 0 3px 3px 0;
+    
+    border-radius: 0;
+    margin: 0 15px 5px 5px;
+  }
+
+
+  /* адаптив */
+
+  @media (max-width: 480px){
+    .todo_list {
+      max-width: 320px;
+    }
+    input[type=text] {
+      width: 287px;
+      padding: 10px;
+  }
+  button{
+    width: 312px;
+  }
+
+  @media (max-width: 390px){
+    .todo_list {
+      max-width: 250px;
+    }
+    input[type=text] {
+      width: 225px;
+      padding: 10px;
+  }
+  button{
+    width: 250px;
+  }
+  }
+  @media (max-width: 300px){
+    .todo_list {
+      max-width: 200px;
+    }
+    input[type=text] {
+      width: 225px;
+      padding: 10px;
+  }
+  button{
+    width: 204px;
+  }
+  .container {
+    margin: 0 auto;
+    padding-top: 25px;
+  }
+  input[type=text] {
+    width: 180px;
+    padding: 10px;
+}
+  }
+}
